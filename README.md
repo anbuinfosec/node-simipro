@@ -1,26 +1,26 @@
-# Node-SimSimi
+# node-simi
 <p align="center">
-  <img alt="@node-simsimi" style="width: 150px;" src="https://cdn.discordapp.com/attachments/858321432178196490/1055677997694320700/ei_1671763615054-removebg-preview.png">
+  <img alt="@node-simi" style="width: 150px;" src="https://cdn.discordapp.com/attachments/858321432178196490/1055677997694320700/ei_1671763615054-removebg-preview.png">
 </p>
 <div align="center">
-  <h3>Node-SimSimi</h3>
+  <h3>node-simi</h3>
   <p>Unofficial <a href="https://simsimi.com">SimSimi</a> API <a href="https://nodejs.org">NodeJS</a><br>It's Free!</p>
 </div>
 <div align="center">
-  <a href="https://www.npmjs.com/package/node-simsimi">NPM</a> | <a href="https://github.com/anbuinfosec/node-simi">Repository</a> | <a href="https://dsc.gg/DrelezTM">Report Bug</a> | <a href="https://github.com/anbuinfosec/node-simi/issues">Issues</a>
+  <a href="https://www.npmjs.com/package/node-simi">NPM</a> | <a href="https://github.com/anbuinfosec/node-simi">Repository</a> | <a href="https://dsc.gg/DrelezTM">Report Bug</a> | <a href="https://github.com/anbuinfosec/node-simi/issues">Issues</a>
 </div>
 
 ## Installation 📑
 * Install Modules
   ```sh
-  npm i node-simsimi
+  npm i node-simi
   ```
  
  ## How to Use 🔭
  * With Asynchronous
    * ESModule
     ```js
-    import simSimi from 'node-simsimi';
+    import simSimi from 'node-simi';
    
     async function main(message, language) {
       const response = await simSimi(message, language);
@@ -31,7 +31,7 @@
     ```
    * CommonJS
     ```js
-    const simSimi = require('node-simsimi');
+    const simSimi = require('node-simi');
    
     async function main(message, language) {
       const response = await simSimi(message, language);
@@ -44,7 +44,7 @@
  * Without Asynchronous
    * ESModule
     ```js
-    import simSimi from 'node-simsimi';
+    import simSimi from 'node-simi';
 
     function main(message, language) {
       simSimi(message, language).then((response) => {
@@ -56,7 +56,7 @@
     ```
    * CommonJS
     ```js
-    const simSimi = require('node-simsimi');
+    const simSimi = require('node-simi');
 
     function main(message, language) {
       simSimi(message, language).then((response) => {
