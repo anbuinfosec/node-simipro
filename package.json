@@ -1,0 +1,36 @@
+{
+  "name": "node-simi",
+  "version": "1.0.0",
+  "description": "Unofficial SimSimi API nodejs.",
+  "main": "index.js",
+  "engine": "18.7.5",
+  "scripts": {
+    "start": "node .",
+    "build": "babel src -d lib"
+  },
+  "keywords": [
+    "SimSimi",
+    "SimSimi API",
+    "ChatAI",
+    "Anbuinfosec",
+    "Mohammad Alamin"
+  ],
+  "author": "anbuinfosec",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.7",
+    "@babel/preset-env": "^7.20.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anbuinfosec/node-simi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anbuinfosec/node-simi/issues"
+  },
+  "homepage": "https://github.com/anbuinfosec/node-simi#readme",
+  "dependencies": {
+    "axios": "^1.2.1"
+  }
+}
