@@ -16,7 +16,7 @@ describe('simitalk function', () => {
 
     axios.get.mockResolvedValue(mockResponse);
 
-    const apikey = '4v3pm1KkchRGTTxAILoE';
+    const apikey = '4v3pm1KkchRGTTxAI';
     const ask = 'How are you?';
     const language = 'en';
 
@@ -36,7 +36,7 @@ describe('simitalk function', () => {
 
     axios.get.mockRejectedValue({ response: mockErrorResponse });
 
-    const apikey = 'invalid_api_key';
+    const apikey = '4v3pm1KkchRGTTxAILoE';
     const ask = 'How are you?';
     const language = 'en';
 

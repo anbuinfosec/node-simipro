@@ -1,6 +1,6 @@
 {
   "name": "node-simipro",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Unofficial SimSimi API nodejs.",
   "main": "index.js",
   "engine": "18.7.5",
@@ -26,13 +26,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anbuinfosec/node-simi.git"
+    "url": "git+https://github.com/anbuinfosec/node-simipro.git"
   },
   "bugs": {
-    "url": "https://github.com/anbuinfosec/node-simi/issues"
+    "url": "https://github.com/anbuinfosec/node-simipro/issues"
   },
-  "homepage": "https://github.com/anbuinfosec/node-simi#readme",
+  "homepage": "https://github.com/anbuinfosec/node-simipro#readme",
   "dependencies": {
-    "axios": "^1.2.1"
+    "axios": "^1.2.1",
+    "node-simipro": "^1.0.0"
+  },
+  "directories": {
+    "test": "tests"
   }
 }

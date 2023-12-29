@@ -36,7 +36,7 @@ describe('simiteach function', () => {
 
     axios.get.mockRejectedValue({ response: mockErrorResponse });
 
-    const apikey = 'invalid_api_key';
+    const apikey = '4v3pm1KkchRGTTxAI';
     const ask = 'How are you?';
     const language = 'en';
 
