@@ -1,6 +1,6 @@
 {
-  "name": "node-simi",
-  "version": "1.0.1",
+  "name": "node-simipro",
+  "version": "1.0.0",
   "description": "Unofficial SimSimi API nodejs.",
   "main": "index.js",
   "engine": "18.7.5",
