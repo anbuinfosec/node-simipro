@@ -23,12 +23,12 @@
     import simi from 'node-simipro';
   
     async function talk() {
-      const res = await simi.simitalk ("4v3pm1KkchRGTTxAILoE", "bro what hepen?", "bn");
+      const res = await simi.simitalk ("bro what hepen?", "bn");
       console.log (res)
     }
 
     async function teach() {
-      const res = await simi.simiteach ("4v3pm1KkchRGTTxAILoE", "bro what hepen?", "ntg hepen bruh!", "bn");
+      const res = await simi.simiteach ("bro what hepen?", "ntg hepen bruh!", "bn");
       console.log (res)
     }
 
@@ -40,12 +40,12 @@
     const simi = require('node-simipro');
    
     async function talk() {
-      const res = await simi.simitalk ("4v3pm1KkchRGTTxAILoE", "bro what hepen?", "bn");
+      const res = await simi.simitalk ("bro what hepen?", "bn");
       console.log (res)
     }
 
     async function teach() {
-      const res = await simi.simiteach ("4v3pm1KkchRGTTxAILoE", "bro what hepen?", "ntg hepen bruh!", "bn");
+      const res = await simi.simiteach ("bro what hepen?", "ntg hepen bruh!", "bn");
       console.log (res)
     }
 
@@ -59,13 +59,13 @@
     import simitalk from 'node-simipro';
 
     function talk() {
-      simi.simitalk ("4v3pm1KkchRGTTxAILoE", "bro what hepen?", "bn").then((response) => {
+      simi.simitalk ("bro what hepen?", "bn").then((response) => {
         console.log(response);
       });
     }
 
     function teach() {
-      simi.simiteach ("4v3pm1KkchRGTTxAILoE", "bro what hepen?", "ntg hepen bruh!", "bn").then((response) => {
+      simi.simiteach ("bro what hepen?", "ntg hepen bruh!", "bn").then((response) => {
         console.log(response);
       });
     }
@@ -78,13 +78,13 @@
     const simitalk = require('node-simipro');
 
     function talk() {
-      simi.simitalk ("4v3pm1KkchRGTTxAILoE", "bro what hepen?", "bn").then((response) => {
+      simi.simitalk ("bro what hepen?", "bn").then((response) => {
         console.log(response);
       });
     }
 
     function teach() {
-      simi.simiteach ("4v3pm1KkchRGTTxAILoE", "bro what hepen?", "ntg hepen bruh!", "bn").then((response) => {
+      simi.simiteach ("bro what hepen?", "ntg hepen bruh!", "bn").then((response) => {
         console.log(response);
       });
     }
@@ -97,16 +97,16 @@
 * Example Response simitalk
   ```json
   {
-    "status": true,
-    "message": "ohh. bhai big boss evan kon bhai",
-    "author": "https://facebook.com/anbuinfosec"
+    "success":true,
+    "message":"bye",
+    "isUnknownResponse":false
   }
   ```
 * Example response simiteach
   ```json
   {
-    "status": true,
-    "message": "SimSimi just learned 1th answer to the question \"who is anbuinfosec?\""
+      "success": true,
+      "message": "You taught the answer to \"hi\".\nNumber of answers: 99+"
   }
   ```
 
