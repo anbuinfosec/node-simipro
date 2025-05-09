@@ -1,10 +1,10 @@
 # node-simipro
 <p align="center">
-  <img alt="@node-simipro" style="width: 150px;" src="https://cdn.discordapp.com/attachments/858321432178196490/1055677997694320700/ei_1671763615054-removebg-preview.png">
+  <img alt="@node-simipro" style="width: 150px;" src="/assets/logo.png">
 </p>
 <div align="center">
   <h3>node-simipro</h3>
-  <p>Unofficial <a href="https://simsimi.com">SimSimi</a> API <a href="https://nodejs.org">NodeJS</a><br>It's Free!</p>
+  <p>Unofficial <a href="https://simi.anbuinfosec.live">SimSimi</a> API <a href="https://nodejs.org">NodeJS</a><br>It's Free!</p>
 </div>
 <div align="center">
   <a href="https://www.npmjs.com/package/node-simipro">NPM</a> | <a href="https://github.com/anbuinfosec/node-simipro">Repository</a> | <a href="https://facebook.com/anbuinfosec">Report Bug</a> | <a href="https://github.com/anbuinfosec/node-simipro/issues">Issues</a>

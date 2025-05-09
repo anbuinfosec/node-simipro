@@ -22,7 +22,7 @@ async function simiteach(ask, ans, language) {
         );
         return response.data;
     } catch (error) {
-        return { status: false, message: 'An error occurred.', author: 'https://facebook.com/anbuinfosec' };
+        return { success: false, message: 'An error occurred.', author: 'https://facebook.com/anbuinfosec' };
     }
 }
 
