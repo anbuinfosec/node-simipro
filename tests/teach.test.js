@@ -45,7 +45,7 @@ describe('simiteach function', () => {
     expect(response).toEqual({
       status: false,
       message: errorMessage,
-      author: 'https://facebook.com/anbuinfosec'
+      author: 'https://t.me/anbusoft'
     });
   });
 });

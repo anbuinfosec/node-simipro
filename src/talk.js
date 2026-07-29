@@ -3,7 +3,7 @@ const axios = require('axios');
 async function simitalk(ask, language) {
     try {
         const response = await axios.post(
-        'https://simi.anbuinfosec.live/api/chat',
+        'https://simi.anbuinfosec..dev/api/chat',
         {
             'ask': ask,
             'lc': language
@@ -11,7 +11,7 @@ async function simitalk(ask, language) {
         {
             headers: {
             'sec-ch-ua-platform': '"Android"',
-            'Referer': 'https://simi.anbuinfosec.live/',
+            'Referer': 'https://simi.anbuinfosec..dev/',
             'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36',
             'sec-ch-ua': '"Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"',
             'Content-Type': 'application/json',
@@ -21,7 +21,7 @@ async function simitalk(ask, language) {
         );
         return response.data;
     } catch (error) {
-        return { success: false, message: 'An error occurred.', author: 'https://facebook.com/anbuinfosec' };
+        return { success: false, message: 'An error occurred.', author: 'https://t.me/anbusoft' };
     }
 }
 

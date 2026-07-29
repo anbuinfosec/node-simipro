@@ -7,7 +7,7 @@
   <p>Unofficial <a href="https://simi.anbuinfosec.live">SimSimi</a> API <a href="https://nodejs.org">NodeJS</a><br>It's Free!</p>
 </div>
 <div align="center">
-  <a href="https://www.npmjs.com/package/node-simipro">NPM</a> | <a href="https://github.com/anbuinfosec/node-simipro">Repository</a> | <a href="https://facebook.com/anbuinfosec">Report Bug</a> | <a href="https://github.com/anbuinfosec/node-simipro/issues">Issues</a>
+  <a href="https://www.npmjs.com/package/node-simipro">NPM</a> | <a href="https://github.com/anbuinfosec/node-simipro">Repository</a> | <a href="https://facebook.com/anbuinfosec.official">Report Bug</a> | <a href="https://github.com/anbuinfosec/node-simipro/issues">Issues</a>
 </div>
 
 ## Installation 📑
