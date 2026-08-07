@@ -10,6 +10,14 @@
   <a href="https://www.npmjs.com/package/node-simipro">NPM</a> | <a href="https://github.com/anbuinfosec/node-simipro">Repository</a> | <a href="https://facebook.com/anbuinfosec.official">Report Bug</a> | <a href="https://github.com/anbuinfosec/node-simipro/issues">Issues</a>
 </div>
 
+---
+
+<p align="center">
+  <a href="https://t.me/AnbuSoft">
+    <img src="https://img.shields.io/badge/Telegram-@AnbuSoft-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Channel">
+  </a>
+</p>
+
 ## Installation 📑
 * Install Modules
   ```sh
